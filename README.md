@@ -11,7 +11,7 @@ raykit is a python toolkit including a diverse set of useful functions for fast-
 pip install raykit
  ```
 
-##### Version explanation
+#### Version explanation
 raykit with version odd e.g. ```0.0.3``` is for simple usage, while version even e.g. ```0.0.4``` is for pytorch-based usage. you can specifiy it with e.g.
 ```pip install raykit==0.0.3```
 
@@ -39,6 +39,5 @@ With ```strcal(string,num,fill)``` you are able to calculate a string type data 
 
 
 #### Reference
-[raykit changelog](docs/CHANGELOG.md)
-[mmcv](https://github.com/open-mmlab/mmcv)
+[raykit changelog](docs/CHANGELOG.md), [mmcv](https://github.com/open-mmlab/mmcv)
 
