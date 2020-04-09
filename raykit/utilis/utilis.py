@@ -1,4 +1,4 @@
-from collections import Counter
+# Copyright (c) Anyi Rao. All rights reserved.
 import numpy as np
 import json
 import pickle
