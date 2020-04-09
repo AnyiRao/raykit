@@ -34,7 +34,7 @@ With ```mkdir_ifmiss```, you do not need to use ```os.makedirs(,exist_ok=True)``
 #### Others
 With ```strcal(string,num,fill)``` you are able to calculate a string type data and a float or int number and zfill it. 
 
-#### Pytoch
+#### Pytorch
 ```to_numpy``` and ```to_torch``` quickly transfer the datatype.
 
 
