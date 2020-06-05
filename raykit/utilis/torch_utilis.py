@@ -5,6 +5,7 @@ import os
 import os.path as osp
 import pdb
 
+
 def to_numpy(tensor):
     if torch.is_tensor(tensor):
         return tensor.cpu().numpy()
@@ -22,8 +23,9 @@ def to_torch(ndarray):
                          .format(type(ndarray)))
     return ndarray
 
+
 def save_checkpoint(state, is_best, fpath='checkpoint.pth.tar'):
-    os.makedirs(osp.dirname(fpath),exist_ok=True)
+    os.makedirs(osp.dirname(fpath), exist_ok=True)
     torch.save(state, fpath)
     if is_best:
         shutil.copy(fpath, osp.join(osp.dirname(fpath), 'model_best.pth.tar'))
@@ -36,4 +38,3 @@ def load_checkpoint(fpath):
         return checkpoint
     else:
         raise ValueError("=> No checkpoint found at '{}'".format(fpath))
-

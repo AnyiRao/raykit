@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="raykit",                  # 包名称
-    version="0.0.5",                      # 包版本
+    version="0.0.6",                      # 包版本
     author="Anyi Rao",                           # 作者
     license='MIT',                                     # 协议简写
     author_email="rayanyirao@gmail.com",                 # 作者邮箱
